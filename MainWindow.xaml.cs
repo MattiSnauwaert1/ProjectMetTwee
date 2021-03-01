@@ -28,8 +28,12 @@ namespace ProjectMetTwee
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
             counter++;
             lblTeller.Content = counter.ToString();
+
+            lblHelloWorld.Content = "Hello World";
+
         }
     }
 }
