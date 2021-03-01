@@ -24,5 +24,10 @@ namespace ProjectMetTwee
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            lblHelloWorld.Content = "Hello World";
+        }
     }
 }
